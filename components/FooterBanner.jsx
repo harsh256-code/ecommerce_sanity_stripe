@@ -1,6 +1,7 @@
 import React from "react";
-
-const FooterBanner = () => {
+import Link from "next/link";
+import { urlFor } from "../lib/clients";
+const FooterBanner = ({ footerBanner }) => {
   return <div>FooterBanner</div>;
 };
 
