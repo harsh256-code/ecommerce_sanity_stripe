@@ -16,7 +16,7 @@ export default async function handler(req, res) {
               "image-",
               "https://cdn.sanity.io/images/ae323d3w/production/"
             )
-            .replace("-wep", ".wep");
+            .replace("-webp", ".webp");
           return {
             price_data: {
               currency: "INR",
@@ -35,7 +35,7 @@ export default async function handler(req, res) {
         }),
 
         success_url: `${req.headers.origin}/success`,
-        cancel_url: `${req.headers.origin}/canceled=true`,
+        cancel_url: `${req.headers.origin}/`,
       };
       const session = await stripe.checkout.sessions.create(params);
       res.status(200).json(session);
