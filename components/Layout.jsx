@@ -7,6 +7,7 @@ const Layout = ({ children }) => {
     <div className="layout">
       <Head>
         <title>My store</title>
+        <link rel="icon" href="/logo.png" />
       </Head>
       <header>
         <Navbar />
