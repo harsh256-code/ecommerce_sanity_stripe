@@ -21,6 +21,7 @@ const Cart = () => {
     setShowCart,
     toggleCartItemQuanitity,
     onRemove,
+    quantities,
   } = useStateContext();
   const handleCheckout = async () => {
     const stripe = await getStripe();
@@ -29,7 +30,7 @@ const Cart = () => {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(cartItems),
+      body: JSON.stringify({ cartItems, quantities }),
     });
     if (response.statusCode === 500) return;
     const data = await response.json();
@@ -87,9 +88,7 @@ const Cart = () => {
                         >
                           <AiOutlineMinus />
                         </span>
-                        <span className="num" onClick="">
-                          {item.quantity}
-                        </span>
+                        <span className="num">{quantities[index]}</span>
                         <span
                           className="plus"
                           onClick={() =>

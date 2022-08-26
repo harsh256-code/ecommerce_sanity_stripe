@@ -9,7 +9,7 @@ export default async function handler(req, res) {
         payment_method_types: ["card"],
         billing_address_collection: "auto",
         shipping_options: [{ shipping_rate: "shr_1LaKtNSAqXJZTkKcNn1YZ8uC" }],
-        line_items: req.body.map((item) => {
+        line_items: req.body.cartItems.map((item, index) => {
           const img = item.image[0].asset._ref;
           const newImage = img
             .replace(
@@ -17,6 +17,7 @@ export default async function handler(req, res) {
               "https://cdn.sanity.io/images/ae323d3w/production/"
             )
             .replace("-webp", ".webp");
+          const quantityIndex = index;
           return {
             price_data: {
               currency: "INR",
@@ -30,7 +31,7 @@ export default async function handler(req, res) {
               enabled: true,
               minimum: 1,
             },
-            quantity: item.quantity,
+            quantity: req.body.quantities[quantityIndex],
           };
         }),
 
