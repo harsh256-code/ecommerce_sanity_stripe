@@ -1,14 +1,14 @@
 Modern Full Stack ECommerce Application with Stripe & Sanity
 # Deployed Version - > https://ecommerce-sanity-stripe-coral.vercel.app/
-![eCommerce](https://user-images.githubusercontent.com/70088342/160780701-7bb38a57-76bd-49a2-a4ec-49f89c50a7c7.png)
+![image](https://user-images.githubusercontent.com/70187887/187014909-305ee59d-86dd-4c66-8914-10000798c86f.png)
 
 
 
-**Build and Deploy a fully responsive Modern Full Stack Ecommerce application with Payments functionality**. With Modern design, animations, the ability to add and edit products on the go using a CMS, all advanced cart functionalities, and most importantly the complete integration with Stripe so that you can cover REAL payments. This is the best e-commerce website project that you can currently find on YouTube!
+**Build and Deploy a fully responsive Modern Full Stack Ecommerce application with Payments functionality**. With Modern design, animations, the ability to add and edit products on the go using a CMS, all advanced cart functionalities, and most importantly the complete integration with Stripe so that you can cover REAL payments. 
 
 
 
-![image](https://user-images.githubusercontent.com/70088342/160780701-7bb38a57-76bd-49a2-a4ec-49f89c50a7c7.png)
+![image](https://user-images.githubusercontent.com/70187887/187014920-c43d2724-abf8-48ff-ac0f-cb46dbbb928f.png)
 ![image](https://user-images.githubusercontent.com/70088342/160780206-9cfe7c0a-3d8e-4a20-a055-b12efebe6c30.png)
 ![image](https://user-images.githubusercontent.com/70088342/160780265-692d37ac-7209-4d53-957a-e94b37d123c0.png)
 ![image](https://user-images.githubusercontent.com/70088342/160780381-7c947640-422e-4729-abae-21911e9bc716.png)
