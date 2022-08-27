@@ -752,3 +752,8 @@ span.text-red {
     margin: auto;
   }
 }
+@media screen and (max-width: 416px) {
+  .cart-container {
+    width: auto;
+  }
+}
