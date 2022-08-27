@@ -1,7 +1,5 @@
 Modern Full Stack ECommerce Application with Stripe & Sanity
 # Deployed Version - > https://ecommerce-sanity-stripe-coral.vercel.app/
-![image](https://user-images.githubusercontent.com/70187887/187014909-305ee59d-86dd-4c66-8914-10000798c86f.png)
-
 
 
 **Build and Deploy a fully responsive Modern Full Stack Ecommerce application with Payments functionality**. With Modern design, animations, the ability to add and edit products on the go using a CMS, all advanced cart functionalities, and most importantly the complete integration with Stripe so that you can cover REAL payments. 
